@@ -20,3 +20,12 @@
 2021-04-18 13:10:50,110 INFO PersonalPageTest [main] Проверка данных о себе
 2021-04-18 13:10:51,054 INFO PersonalPageTest [main] Данные проверены
 2021-04-18 13:10:52,308 INFO PersonalPageTest [main] Драйвер закрыт
+2021-04-18 13:31:56,620 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-18 13:32:25,550 INFO PersonalPageTest [main] Вход и Переход на вкладку О себе
+2021-04-18 13:32:25,550 INFO PersonalPageTest [main] Заполнение данных о себе и сохранение
+2021-04-18 13:32:40,234 INFO PersonalPageTest [main] Драйвер закрыт
+2021-04-18 13:32:40,695 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-18 13:33:00,401 INFO PersonalPageTest [main] Вход и Переход на вкладку О себе
+2021-04-18 13:33:00,401 INFO PersonalPageTest [main] Проверка данных о себе
+2021-04-18 13:33:01,440 INFO PersonalPageTest [main] Данные проверены
+2021-04-18 13:33:02,899 INFO PersonalPageTest [main] Драйвер закрыт

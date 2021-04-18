@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PersonalPageTest" time="59.431" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PersonalPageTest" time="69.357" tests="2" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk-9\bin"/>
-    <property name="sun.java.command" value="C:\Users\shaml\AppData\Local\Temp\surefire9180051671403475673\surefirebooter14824143632845448832.jar C:\Users\shaml\AppData\Local\Temp\surefire9180051671403475673 2021-04-18T13-09-49_192-jvmRun1 surefire4172236148345234591tmp surefire_071330900044953920tmp"/>
+    <property name="sun.java.command" value="C:\Users\shaml\AppData\Local\Temp\surefire11688632057000347126\surefirebooter6212562381961477743.jar C:\Users\shaml\AppData\Local\Temp\surefire11688632057000347126 2021-04-18T13-31-51_184-jvmRun1 surefire14077972420238024610tmp surefire_011207858422134585935tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Настя_otus\клон_с_githab\Домашние_задания\otus_dz4_Jenkins2\target\test-classes;D:\Настя_otus\клон_с_githab\Домашние_задания\otus_dz4_Jenkins2\target\classes;C:\Users\shaml\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\shaml\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shaml\.m2\repository\org\apache\logging\log4j\log4j-api\2.4.1\log4j-api-2.4.1.jar;C:\Users\shaml\.m2\repository\org\apache\logging\log4j\log4j-core\2.4.1\log4j-core-2.4.1.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\shaml\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\shaml\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\shaml\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shaml\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\shaml\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\shaml\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\shaml\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\shaml\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\shaml\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\shaml\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\shaml\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\shaml\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\shaml\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\shaml\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\shaml\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\shaml\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\shaml\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\shaml\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\shaml\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shaml\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\shaml\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\shaml\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\shaml\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\shaml\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar;C:\Users\shaml\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar;C:\Users\shaml\.m2\repository\io\qameta\allure\allure-junit4\2.13.9\allure-junit4-2.13.9.jar;C:\Users\shaml\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\shaml\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\shaml\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\shaml\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\shaml\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\shaml\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\shaml\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;"/>
     <property name="allure.results.directory" value="D:\Настя_otus\клон_с_githab\Домашние_задания\otus_dz4_Jenkins2\target/allure-results"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\shaml\AppData\Local\Temp\surefire9180051671403475673\surefirebooter14824143632845448832.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shaml\AppData\Local\Temp\surefire11688632057000347126\surefirebooter6212562381961477743.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9+181"/>
@@ -61,37 +61,44 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="setPersonalData" classname="PersonalPageTest" time="36.194">
-    <system-out><![CDATA[&amp#27;[30m[13:09:55.705] | INFO  | main                             | PersonalPageTest                 | Драйвер поднят
-&amp#27;[m&amp#27;[30m[13:10:19.066] | INFO  | main                             | PersonalPageTest                 | Вход и Переход на вкладку О себе
-&amp#27;[m&amp#27;[30m[13:10:19.066] | INFO  | main                             | PersonalPageTest                 | Заполнение данных о себе и сохранение
-&amp#27;[m&amp#27;[30m[13:10:25.946] | INFO  | main                             | PersonalPageTest                 | Данные о себе заполнены
-&amp#27;[m&amp#27;[30m[13:10:28.007] | INFO  | main                             | PersonalPageTest                 | Изменения сохранены
-&amp#27;[m&amp#27;[30m[13:10:29.493] | INFO  | main                             | PersonalPageTest                 | Драйвер закрыт
+  <testcase name="setPersonalData" classname="PersonalPageTest" time="46.596">
+    <error message="Expected condition failed: waiting for element to be clickable: By.cssSelector: [title=&apos;Самара&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-T65V1HMB&apos;, ip: &apos;172.22.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\shaml\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 64f401f83c0d34cdd3607b664acfb83c" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: [title='Самара'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T65V1HMB', ip: '172.22.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\shaml\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64f401f83c0d34cdd3607b664acfb83c
+	at PersonalPageTest.setPersonalData(PersonalPageTest.java:52)
+]]></error>
+    <system-out><![CDATA[&amp#27;[30m[13:31:56.620] | INFO  | main                             | PersonalPageTest                 | Драйвер поднят
+&amp#27;[m&amp#27;[30m[13:32:25.550] | INFO  | main                             | PersonalPageTest                 | Вход и Переход на вкладку О себе
+&amp#27;[m&amp#27;[30m[13:32:25.550] | INFO  | main                             | PersonalPageTest                 | Заполнение данных о себе и сохранение
+&amp#27;[m&amp#27;[30m[13:32:40.234] | INFO  | main                             | PersonalPageTest                 | Драйвер закрыт
 &amp#27;[m]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 9916
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 44266
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-апр. 18, 2021 1:09:58 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+апр. 18, 2021 1:31:58 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="getPersonalData" classname="PersonalPageTest" time="22.299">
-    <system-out><![CDATA[&amp#27;[30m[13:10:30.071] | INFO  | main                             | PersonalPageTest                 | Драйвер поднят
-&amp#27;[m&amp#27;[30m[13:10:50.110] | INFO  | main                             | PersonalPageTest                 | Вход и Переход на вкладку О себе
-&amp#27;[m&amp#27;[30m[13:10:50.110] | INFO  | main                             | PersonalPageTest                 | Проверка данных о себе
-&amp#27;[m&amp#27;[30m[13:10:51.054] | INFO  | main                             | PersonalPageTest                 | Данные проверены
-&amp#27;[m&amp#27;[30m[13:10:52.308] | INFO  | main                             | PersonalPageTest                 | Драйвер закрыт
+  <testcase name="getPersonalData" classname="PersonalPageTest" time="22.251">
+    <system-out><![CDATA[&amp#27;[30m[13:32:40.695] | INFO  | main                             | PersonalPageTest                 | Драйвер поднят
+&amp#27;[m&amp#27;[30m[13:33:00.401] | INFO  | main                             | PersonalPageTest                 | Вход и Переход на вкладку О себе
+&amp#27;[m&amp#27;[30m[13:33:00.401] | INFO  | main                             | PersonalPageTest                 | Проверка данных о себе
+&amp#27;[m&amp#27;[30m[13:33:01.440] | INFO  | main                             | PersonalPageTest                 | Данные проверены
+&amp#27;[m&amp#27;[30m[13:33:02.899] | INFO  | main                             | PersonalPageTest                 | Драйвер закрыт
 &amp#27;[m]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 16222
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 11148
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-апр. 18, 2021 1:10:31 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+апр. 18, 2021 1:32:42 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

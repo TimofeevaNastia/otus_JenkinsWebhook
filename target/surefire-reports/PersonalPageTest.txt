@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: PersonalPageTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.431 s - in PersonalPageTest
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 69.357 s <<< FAILURE! - in PersonalPageTest
+PersonalPageTest.setPersonalData  Time elapsed: 46.596 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.cssSelector: [title='Самара'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T65V1HMB', ip: '172.22.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\shaml\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64f401f83c0d34cdd3607b664acfb83c
+	at PersonalPageTest.setPersonalData(PersonalPageTest.java:52)
+
