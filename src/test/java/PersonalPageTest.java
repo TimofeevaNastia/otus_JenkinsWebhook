@@ -25,8 +25,6 @@ public class PersonalPageTest extends BaseClass{
     private static final String gender_set="f";
     private static final String gender_get="Женский";
 
-
-
     public void test() throws IOException {
         setPersonalData();//ввод данных
         setDown();
