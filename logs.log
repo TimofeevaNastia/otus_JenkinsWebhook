@@ -1,0 +1,26 @@
+2021-04-25 22:59:12,157 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-25 23:00:20,505 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-25 23:02:31,510 INFO PersonalPageTest [main] Р”СЂР°Р№РІРµСЂ РїРѕРґРЅСЏС‚
+2021-04-25 23:03:51,836 INFO PersonalPageTest [main] РќР°С‡Р°Р»Рѕ
+2021-04-25 23:03:51,836 INFO PersonalPageTest [main] Р’С…РѕРґ Рё РџРµСЂРµС…РѕРґ РЅР° РІРєР»Р°РґРєСѓ Рћ СЃРµР±Рµ
+2021-04-25 23:03:51,836 INFO PersonalPageTest [main] Р—Р°РїРѕР»РЅРµРЅРёРµ РґР°РЅРЅС‹С… Рѕ СЃРµР±Рµ Рё СЃРѕС…СЂР°РЅРµРЅРёРµ
+2021-04-25 23:04:05,984 INFO PersonalPageTest [main] Р”Р°РЅРЅС‹Рµ Рѕ СЃРµР±Рµ Р·Р°РїРѕР»РЅРµРЅС‹
+2021-04-25 23:04:08,542 INFO PersonalPageTest [main] РР·РјРµРЅРµРЅРёСЏ СЃРѕС…СЂР°РЅРµРЅС‹
+2021-04-25 23:04:09,293 INFO PersonalPageTest [main] Р”СЂР°Р№РІРµСЂ Р·Р°РєСЂС‹С‚
+2021-04-25 23:04:09,301 INFO PersonalPageTest [main] Р”СЂР°Р№РІРµСЂ РїРѕРґРЅСЏС‚
+2021-04-25 23:04:33,910 INFO PersonalPageTest [main] Р’С…РѕРґ Рё РџРµСЂРµС…РѕРґ РЅР° РІРєР»Р°РґРєСѓ Рћ СЃРµР±Рµ
+2021-04-25 23:04:33,911 INFO PersonalPageTest [main] РџСЂРѕРІРµСЂРєР° РґР°РЅРЅС‹С… Рѕ СЃРµР±Рµ
+2021-04-25 23:04:35,166 INFO PersonalPageTest [main] Р”Р°РЅРЅС‹Рµ РїСЂРѕРІРµСЂРµРЅС‹
+2021-04-25 23:04:35,613 INFO PersonalPageTest [main] Р”СЂР°Р№РІРµСЂ Р·Р°РєСЂС‹С‚
+2021-04-25 23:13:42,138 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-25 23:14:02,945 INFO PersonalPageTest [main] Начало
+2021-04-25 23:14:02,946 INFO PersonalPageTest [main] Вход и Переход на вкладку О себе
+2021-04-25 23:14:02,947 INFO PersonalPageTest [main] Заполнение данных о себе и сохранение
+2021-04-25 23:14:11,825 INFO PersonalPageTest [main] Данные о себе заполнены
+2021-04-25 23:14:14,402 INFO PersonalPageTest [main] Изменения сохранены
+2021-04-25 23:14:14,912 INFO PersonalPageTest [main] Драйвер закрыт
+2021-04-25 23:14:15,083 INFO PersonalPageTest [main] Драйвер поднят
+2021-04-25 23:14:33,300 INFO PersonalPageTest [main] Вход и Переход на вкладку О себе
+2021-04-25 23:14:33,300 INFO PersonalPageTest [main] Проверка данных о себе
+2021-04-25 23:14:34,618 INFO PersonalPageTest [main] Данные проверены
+2021-04-25 23:14:35,015 INFO PersonalPageTest [main] Драйвер закрыт

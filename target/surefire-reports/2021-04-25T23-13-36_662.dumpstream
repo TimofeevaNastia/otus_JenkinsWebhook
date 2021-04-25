@@ -1,0 +1,4 @@
+# Created at 2021-04-25T23:13:37.709
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Настя_otus\клон_с_githab\Домашние_задания\otu_JenkinsWebhook\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
