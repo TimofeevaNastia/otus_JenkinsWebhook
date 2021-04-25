@@ -37,7 +37,9 @@ public class PersonalPageTest extends BaseClass{
     @Test
     public void setPersonalData() throws IOException {
         //ddd
-        AboutYourself aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors())
+        logger.info("Тест 1");
+        MainPage aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors());
+        /*AboutYourself aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors())
         .personalAccount().aboutYourself();
         logger.info("Начало");
         logger.info("Вход и Переход на вкладку О себе");
@@ -60,14 +62,15 @@ public class PersonalPageTest extends BaseClass{
         aboutYourself.setPost(post);//ввод должности
         logger.info("Данные о себе заполнены");
         aboutYourself.save();
-        logger.info("Изменения сохранены");
+        logger.info("Изменения сохранены");*/
         screen();
     }
     @Step("Проверка заполненных данных О себе авторизированного пользователя")
     @Test
     public void getPersonalData() throws IOException {
-        //logger.info("Тест - просто вход");
-        AboutYourself aboutYourself=new AuthorizationPage(driver)
+        logger.info("Тест 2");
+        MainPage aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors());
+        /*AboutYourself aboutYourself=new AuthorizationPage(driver)
                 .auth(cfg.login(),cfg.passwors())
                 .personalAccount()
                 .aboutYourself();
@@ -92,7 +95,7 @@ public class PersonalPageTest extends BaseClass{
         collector.checkThat(aboutYourself.getGender(),is(gender_get));//проверка пола
         collector.checkThat(aboutYourself.getComppany(),is(company));//проверка компании
         collector.checkThat(aboutYourself.getPost(),is(post));//проверка должности
-        logger.info("Данные проверены");
+        logger.info("Данные проверены");*/
         screen();
     }
 
