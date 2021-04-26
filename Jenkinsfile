@@ -44,25 +44,25 @@ pipeline {
                 always {
                   script {
                      // Узнаем ветку репозитория
-                                                                    def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
-                                                                    println("branch= " + branch)
+                      def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
+                      println("branch= " + branch)
 
-                                                                    // Достаем информацию по тестам из junit репорта
-                                                                    def summary = junit testResults: '**/target/surefire-reports/*.xml'
-                                                                    println("summary generated")
-                                                // Текст оповещения
-                                                  def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
+                      // Достаем информацию по тестам из junit репорта
+                      def summary = junit testResults: '**/target/surefire-reports/*.xml'
+                      println("summary generated")
+                      // Текст оповещения
+                      def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
 
-                                                  if (currentBuild.currentResult == 'SUCCESS') {
-                                                  step([$class: 'Mailer', body: message, notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
-                                                  slackSend(message: "Notification from Jenkins Pipeline: "+ message)
-                                                  } else {
-                                                  step([$class: 'Mailer', body: message, notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
-                                                  slackSend(message: "Notification from Jenkins Pipeline: "+ message)
-                                                  }
+                      if (currentBuild.currentResult == 'SUCCESS') {
+                      step([$class: 'Mailer', body: message, notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
+                      slackSend(message: "Notification from Jenkins Pipeline: "+ message)
+                      } else {
+                      step([$class: 'Mailer', body: message, notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
+                      slackSend(message: "Notification from Jenkins Pipeline: "+ message)
+                      }
 
                     // Формирование отчета
-                    allure([
+                      allure([
                       includeProperties: false,
                       jdk: '',
                       properties: [],
@@ -70,9 +70,6 @@ pipeline {
                       results: [[path: 'target/allure-results']]
                     ])
                     println('allure report created')
-
-
-
                     // Текст оповещения
                     //def message = "${currentBuild.currentResult}: Job ${env.JOB_NAME}, build ${env.BUILD_NUMBER}, branch ${branch}\nTest Summary - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}\nMore info at: ${env.BUILD_URL}"
                     println("message= " + message)
