@@ -19,7 +19,6 @@ pipeline {
         choice(name: 'BROWSER_NAME', choices: ['chrome', 'firefox'], description: 'Pick the target browser in Selenoid')
         choice(name: 'BROWSER_VERSION', choices: ['89.0', '88.0', '78.0'], description: 'Pick the target browser version in Selenoid')
     }
-
     stages {
    stage('Pull from GitHub') {
             steps {
