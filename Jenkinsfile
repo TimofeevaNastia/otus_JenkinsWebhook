@@ -59,6 +59,7 @@ pipeline {
                       slackSend(message: "Notification from Jenkins Pipeline: "+ message)
                       }
 
+
                     // Формирование отчета
                       allure([
                       includeProperties: false,
