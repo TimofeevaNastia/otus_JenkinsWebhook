@@ -36,7 +36,7 @@ public class PersonalPageTest extends BaseClass{
     @Step("Заполнения данных О себе авторизированного пользователя")
     @Test
     public void setPersonalData() throws IOException {
-        //ddd
+        //ТЕСТ
         logger.info("Тест 1");
         MainPage aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors());
         /*AboutYourself aboutYourself=new AuthorizationPage(driver).auth(cfg.login(),cfg.passwors())
