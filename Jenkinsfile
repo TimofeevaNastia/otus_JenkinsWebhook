@@ -55,8 +55,7 @@ pipeline {
                      step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
                       slackSend(message: "Notification from Jenkins Pipeline: "+ message)
                       } else {
-                     step([$class: 'Mailer',  notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
-
+                     step([$class: 'Mailer',  notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true]
                       slackSend(message: "Notification from Jenkins Pipeline: "+ message)
                       }
                     // Формирование отчета
