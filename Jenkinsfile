@@ -60,7 +60,6 @@ pipeline {
                       step([$class: 'Mailer', body: message, notifyEveryUnstableBuild: true, recipients: "anasok1997@gmail.com", sendToIndividuals: true])
                       slackSend(message: "Notification from Jenkins Pipeline: "+ message)
                       }
-
                     // Формирование отчета
                       allure([
                       includeProperties: false,
