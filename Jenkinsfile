@@ -45,7 +45,6 @@ pipeline {
                      // Узнаем ветку репозитория
                       def branch = bat(returnStdout: true, script: 'git rev-parse --abbrev-ref HEAD\n').trim().tokenize().last()
                       println("branch= " + branch)
-
                       // Достаем информацию по тестам из junit репорта
                       def summary = junit testResults: '**/target/surefire-reports/*.xml'
                       println("summary generated")
